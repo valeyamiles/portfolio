@@ -1,0 +1,119 @@
+*{
+  background-color: white;
+  font-family: 'Krub';
+  color: #000000;
+
+}
+
+.photocontainer{
+display: inline;
+}
+
+.aboutcontainer{
+  max-width: 550px;
+  margin-left: 50px;
+
+}
+
+.title{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Playfair Display';
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00bcd4;
+}
+.tagline{
+  text-align: center
+}
+
+
+.about{
+  text-align: center;
+
+}
+
+
+.image-frame{
+  position:relative;
+  width: 100%;
+  height:200px;
+  display: inline-block;
+}
+
+.myphoto{
+  size: 50%;
+  float: right;
+
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px; 
+    color: white;
+
+}
+ 
+ .section {
+    display: inline-block;
+    width: 100%;
+    min-height: 400px
+
+  }
+
+  #container {
+    color: #333;
+    width: 100%;
+    margin:0px;
+    font-weight: 200;
+    text-align: center;
+
+  }
+
+  #container .inner {
+    max-width: 960px;
+    width: 100%;
+    margin:10px auto;
+    padding:20px 0px;
+    display: inline-block;
+    text-transform: none;
+  }
+
+  #container .inner.double {
+    float: left;
+    width: 50%;
+    text-transform: none;
+
+  }
+
+ #container > div {
+    padding-top:10px;
+    display: inline-block;
+    width: 100%
+   }
+
+#top, #bottom, #left, #right {
+  background: #a5ebff;
+  position: fixed;
+  }
+  #left, #right {
+    top: 0; bottom: 0;
+    width: 15px;
+    }
+    #left { left: 0; }
+    #right { right: 0; }
+    
+  #top, #bottom {
+    left: 0; right: 0;
+    height: 15px;
+    }
+    #top { top: 0; }
+    #bottom { bottom: 0; }
+
